@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#tweet-text {
+  border-bottom: 3px solid grey;
+}
+
+.tweetndchars {
+  font-family: "Bungee", cursive;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.tweetbutton {
+  background-color: #4056a1;
+  color: white;
+  padding: 5px;
+}
+
+.tweetbox {
+  background: transparent;
+  border: none;
+}

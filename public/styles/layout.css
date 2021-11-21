@@ -1,0 +1,139 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+
+body {
+  color: #545149;
+  background-color: #f4f1ec;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+  max-width: 90%;
+  margin: auto;
+  background-color: #f4f1ec;
+  padding-bottom: 5px;
+}
+
+.tweet-container {
+  margin-top: 45px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  /* border: solid grey 3px; */
+}
+
+.tweet:hover {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.tweet {
+  border: solid grey 3px;
+  margin: 15px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+article.t {
+  background-color: #f4f1ec;
+  border: solid grey 3px;
+}
+
+article.tweet header {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+hr {
+  border-top: 3px solid black;
+  width: 95%;
+}
+article.tweet footer {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+
+  padding-right: 1.5em;
+}
+
+article.tweet div {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+article.tweet h4 {
+  color: lightcoral;
+}
+
+article.tweet i {
+  color: aqua;
+}
+article.tweet i:hover {
+  color: orange;
+}
+
+.error-message {
+  color: red;
+  border: solid red 3px;
+}
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+
+/* Desktop styles */
+
+@media only screen and (min-width: 1024px) {
+  .first-header {
+    height: auto;
+    width: 30%;
+    /* float: left; */
+    margin-left: 2em;
+
+    position: relative;
+  }
+
+  main {
+    margin-top: 135px;
+    width: 66%;
+    float: right;
+    /* margin-right: 7em; */
+  }
+
+  .entirebody {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+
+    justify-content: space-around;
+  }
+}

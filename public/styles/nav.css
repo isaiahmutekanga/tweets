@@ -1,0 +1,35 @@
+nav {
+  color: #ffff;
+  background-color: #4056a1;
+  height: 120px;
+  width: 100%;
+  top: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  z-index: 1;
+  position: fixed;
+}
+
+.tweeter {
+  color: whitesmoke;
+  font-family: "Bungee", cursive;
+
+  margin-top: 15px;
+  align-content: center;
+}
+
+.first-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.writeatweet {
+  float: right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+i {
+  color: red;
+}
